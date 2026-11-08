@@ -1,16 +1,34 @@
-# React + Vite
+# 🚀 Interactive Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, high-performance web application built with **React** and **Vite** that renders raw Markdown text into formatted HTML dynamically in real-time. 
 
-Currently, two official plugins are available:
+This project demonstrates core modern React architecture, focusing on predictable data flow, controlled component inputs, and clean separation of concerns using functional programming principles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack & Architecture
+* **React 19** (Functional Components & Hooks)
+* **Vite** (Next-generation lightning-fast build tool)
+* **Marked** (Industry-standard parsing engine for Markdown conversion)
+* **ESLint** (Static code linting for production-ready quality)
 
-## React Compiler
+## 💡 Key React Concepts Demonstrated
+* **Declarative Rendering:** The UI automatically re-renders the parsed HTML string the exact millisecond the underlying string state changes.
+* **Controlled Components:** Handled real-time textarea state mutations smoothly using the `useState` hook and synthetic user events (`onChange`).
+* **Optimized DOM Insertion:** Safely rendered compiled HTML strings via the `dangerouslySetInnerHTML` pattern.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Local Installation & Setup
 
-## Expanding the ESLint configuration
+To clone and run this application on your machine:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com
+
+# Navigate into the directory
+cd markdown-previewer
+
+# Install dependencies
+npm install
+
+# Start the local development server
+npm run dev
+```
