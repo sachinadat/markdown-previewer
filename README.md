@@ -21,7 +21,7 @@ To clone and run this application on your machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com
+git clone https://github.com/sachinadat/markdown-previewer.git
 
 # Navigate into the directory
 cd markdown-previewer
