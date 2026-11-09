@@ -1,5 +1,7 @@
 # 🚀 Interactive Markdown Previewer
 
+**[🔗 Live Demo Link](https://sachinadat.github.io/markdown-previewer/)**
+
 A lightweight, high-performance web application built with **React** and **Vite** that renders raw Markdown text into formatted HTML dynamically in real-time. 
 
 This project demonstrates core modern React architecture, focusing on predictable data flow, controlled component inputs, and clean separation of concerns using functional programming principles.
